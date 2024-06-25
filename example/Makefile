@@ -2,7 +2,7 @@ build:
 	terraform init	&&	terraform apply	-auto-approve					
 
 
-verify:	
+v:	
 	helm list -n	almazapp
 	kubectl	get	all	-n	almazapp
 

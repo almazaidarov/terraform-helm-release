@@ -6,5 +6,10 @@ module  app {
     source = "../"
     name = "testapplication"
     namespace = "almazapp"
+      values_yaml = <<EOF
+
+EOF
+
 }
+
 ```
