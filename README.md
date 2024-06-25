@@ -2,7 +2,8 @@
 
 ### Please copy paste below code
 ```
-module "release" {
-  source  = "almazaidarov/release/helm"
+module  app {
+    source = "../"
+    name = "testapplication"
 }
 ```
